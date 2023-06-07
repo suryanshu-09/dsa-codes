@@ -36,7 +36,6 @@ void delete(int item) {
     struct Node* temp = head;
     struct Node* prevNode = NULL;
     int found = 0;
-    // Search for the node to be deleted
     while (temp->next != head) {
         if (temp->data == item) {
             found = 1;
